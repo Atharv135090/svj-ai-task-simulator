@@ -1,0 +1,15 @@
+spec_version: 1
+version: "1.0"
+name: svj_ai_task_simulator
+type: space
+runtime: python
+app: inference.py
+author: SVJ
+tasks:
+  - email
+  - data
+  - code
+difficulty:
+  - easy
+  - medium
+  - hard
