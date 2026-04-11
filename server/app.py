@@ -1,7 +1,5 @@
-from inference import run_inference
-
 def main():
-    run_inference()
+    print("OpenEnv server entry point working")
 
 if __name__ == "__main__":
     main()
