@@ -1,13 +1,9 @@
-FROM python:3.10-slim
+FROM python:3.10
 
-# Set working directory inside container
 WORKDIR /app
 
-# Copy files
-COPY . .
+COPY . /app
 
-# Install dependencies
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Default command to run
-CMD ["python", "inference.py"]
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "7860"]
