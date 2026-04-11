@@ -1,7 +1,10 @@
 [project]
 name = "svj-ai-task-simulator"
 version = "0.1.0"
-dependencies = ["openenv-core>=0.2.0"]
+
+dependencies = [
+    "openenv-core>=0.2.0"
+]
 
 [project.scripts]
 server = "server.app:main"
