@@ -1,0 +1,13 @@
+[project]
+name = "svj-ai-task-simulator"
+version = "0.1.0"
+description = "SVJ AI Task Simulator for OpenEnv"
+authors = [{name = "Atharv"}]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "openai"
+]
+
+[tool.setuptools]
+packages = ["."]
