@@ -1,2 +1,5 @@
+from openenv_core import Server
+
 def main():
-    pass
+    # Start the OpenEnv server
+    Server().run()
