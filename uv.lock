@@ -1,5 +1,0 @@
-version = 1
-
-[[package]]
-name = "openenv-core"
-version = "0.2.0"
