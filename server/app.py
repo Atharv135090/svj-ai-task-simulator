@@ -1,2 +1,2 @@
 def main():
-    return "ok"
+    pass
