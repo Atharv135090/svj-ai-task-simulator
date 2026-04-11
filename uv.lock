@@ -1,0 +1,25 @@
+version = 1
+
+[[package]]
+name = "fastapi"
+version = "0.110.0"
+
+[[package]]
+name = "uvicorn"
+version = "0.29.0"
+
+[[package]]
+name = "openai"
+version = "1.30.1"
+
+[[package]]
+name = "openenv-core"
+version = "0.2.0"
+
+[metadata]
+requires = [
+    "fastapi",
+    "uvicorn",
+    "openai",
+    "openenv-core>=0.2.0"
+]
