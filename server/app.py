@@ -1,5 +1,5 @@
-from openenv_core import Server
+from inference import run_inference
 
 def main():
-    # Start the OpenEnv server
-    Server().run()
+    result = run_inference()
+    return result
