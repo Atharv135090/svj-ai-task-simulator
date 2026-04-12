@@ -1,7 +1,8 @@
 import os
 from openai import OpenAI
-from main import SVJEnvironment, Action
-from grader import grade_email, grade_data, grade_code
+
+from envs.svj_ai_simulator.main import SVJEnvironment, Action
+from envs.svj_ai_simulator.grader import grade_email, grade_data, grade_code
 
 def get_llm_action(task_content):
     try:
